@@ -22,6 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="kreamy.mvc.mypage" />
+	<context:component-scan base-package="com.mvc.kreamy" />
 	
 	<beans:bean id="mypageDAO" class="kreamy.mvc.mypage.MypageDAO">
 		<beans:property name="sessionTemplate" ref="sessionTemplate"/>
