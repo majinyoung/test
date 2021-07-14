@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="kreamy.mvc.mypage">
+	<logger name="com.mvc.kreamy">
 		<level value="info" />
 	</logger>
 	
